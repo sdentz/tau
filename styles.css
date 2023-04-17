@@ -1,21 +1,70 @@
-body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
-.background{
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+.background {
   background-image: url("jacob.jpeg");
   justify-content: center;
-  background-size: 5%;
+  background-size: 10%;
   width: 100%;
-  
   height: 100%;
   position: fixed;
+  background-color: black;
 }
-.panel{
-  background-color: white;
+
+.a {
+  animation: spinX 10s infinite linear reverse;
+}
+
+.b {
+  animation: spinX 8s infinite linear reverse;
+}
+
+.c {
+  animation: spinX 6s infinite linear reverse;
+}
+
+.d {
+  animation: spinX 4s infinite linear reverse;
+}
+
+.f {
+  animation: spinX 10s infinite linear;
+}
+
+.g {
+  animation: spinX 8s infinite linear;
+}
+
+.h {
+  animation: spinX 6s infinite linear;
+}
+
+.i {
+  animation: spinX 4s infinite linear;
+}
+
+
+
+
+.panel {
+  background-color: black;
   text-align: center;
   color: black;
   width: 100%;
+  scale: 0.5;
   height: fit-content;
+}
+
+@keyframes spinX {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
