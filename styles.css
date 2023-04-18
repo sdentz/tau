@@ -2,7 +2,6 @@ body,
 html {
   height: 100%;
   margin: 0;
-  background-color: black;
 }
 
 .background {
@@ -12,7 +11,9 @@ html {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: black;
+  background-image: url("jacob.jpeg");
+  animation: spinX 15s infinite linear;
+  scale: 3;
 }
 
 .a {
