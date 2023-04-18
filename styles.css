@@ -21,30 +21,36 @@ html {
 
 .b {
   animation: spinX 8s infinite linear reverse;
+  scale: 0.8;
 }
 
 .c {
   animation: spinX 6s infinite linear reverse;
+  scale: 0.6;
 }
 
 .d {
   animation: spinX 4s infinite linear reverse;
+  scale: 0.4;
 }
 
-.f {
+.e {
   animation: spinX 10s infinite linear;
 }
 
-.g {
+.f {
   animation: spinX 8s infinite linear;
+  scale: 0.8;
+}
+
+.g {
+  animation: spinX 6s infinite linear;
+  scale: 0.6;
 }
 
 .h {
-  animation: spinX 6s infinite linear;
-}
-
-.i {
   animation: spinX 4s infinite linear;
+  scale: 0.4;
 }
 
 
